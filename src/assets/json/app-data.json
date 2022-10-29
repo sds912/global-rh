@@ -1,0 +1,17 @@
+{
+  "nav": [
+    {
+      "label": "Offres d'emploies",
+      "link": ""
+    },
+    {
+      "label": "Qui Sommes-Nous",
+      "link": ""
+    },
+    {
+      "label": "Déposer votre CV",
+      "link": ""
+    }
+
+  ]
+}

@@ -1,0 +1,17 @@
+<div class="container-fluid m-0 bg-b p-4 text-white">
+  <div class="row">
+      <div *ngFor="let d of datas" class="col-12 col-md-6 col-lg-3">
+        <img  class="img-fluid" *ngIf="d.image != undefined" src="assets/images/white-logo.png" alt="logo">
+        <div *ngIf="d.items != undefined">
+          <p>{{d.title}}</p>
+          <ul class="list-unstyled">
+            <li *ngFor="let i of d.items">{{i.label}}</li>
+          </ul>
+        </div>
+        <button *ngIf="d.button != undefined" class="btn">Nous contacter</button>
+
+      </div>
+  </div>
+  <p></p>
+</div>
+
