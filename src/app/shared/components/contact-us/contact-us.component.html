@@ -1,1 +1,36 @@
-<p>contact-us works!</p>
+<div class="row bg-b p-4 text-white ">
+   <div class="col-12 col-md-7">
+    <h4>Contactez nous</h4>
+    <ul class="list-unstyled">
+      <li>
+        <i class="fa fa-envelope"></i>
+        <span class="ml-2">contact@global-rh.sn</span>
+      </li>
+      <li>
+        <i class="fa fa-phone"></i>
+        <span class="ml-2">33 434 45 76</span>
+      </li>
+    </ul>
+    <app-map-viewer></app-map-viewer>
+   </div>
+   <div class="col-12 col-md-5 ">
+    <h4>Laissez nous un message</h4>
+     <form [formGroup]="contactForm" (ngSubmit)="sendMessage()">
+      <div class="form-group">
+        <label for="">Nom Complet</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="">Adresse Email</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="">Votre Message</label>
+        <textarea class="form-control" rows="4" >
+
+        </textarea>
+      </div>
+      <button class="btn btn-p">Envoyer</button>
+     </form>
+  </div>
+</div>

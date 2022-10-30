@@ -1,3 +1,6 @@
+import { IndustryComponent } from './shared/components/industry/industry.component';
+import { NotFoundComponent } from './shared/components/not-found/not-found.component';
+import { MapViewerComponent } from './shared/components/map-viewer/map-viewer.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -14,6 +17,10 @@ import { ContactUsComponent } from './shared/components/contact-us/contact-us.co
 import { SectorsComponent } from './shared/components/sectors/sectors.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoaderComponent } from './shared/components/loader/loader.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { GoogleMapsModule } from '@angular/google-maps';
+import { WhyUsComponent } from './shared/components/why-us/why-us.component';
+
 
 @NgModule({
   declarations: [
@@ -27,12 +34,21 @@ import { LoaderComponent } from './shared/components/loader/loader.component';
     JobOfferComponent,
     ContactUsComponent,
     SectorsComponent,
-    LoaderComponent
+    LoaderComponent,
+    MapViewerComponent,
+    NotFoundComponent,
+    IndustryComponent,
+    WhyUsComponent,
+
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    GoogleMapsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

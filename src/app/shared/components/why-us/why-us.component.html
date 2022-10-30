@@ -1,0 +1,9 @@
+<div class="container-fluid m-0 p-4 bg-o">
+  <div class="row">
+    <div *ngFor="let d of data" class="col-12 col-md-4 text-center">
+      <img src={{d.icon}} alt="" />
+      <h5 class="my-3 font-weight-bolder" style="font-size: 22px;">{{d.title}}</h5>
+      <p class="px-5" style="font-size: 16px;">{{d.desc}}</p>
+    </div>
+  </div>
+</div>

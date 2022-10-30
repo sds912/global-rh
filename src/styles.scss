@@ -1,18 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 
-body{
+html,body{
   background-color: #f4f4f4;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .bg-r{
  background-color: rgb(196, 5, 86);
 }
 
+.bg-o{
+  background-color: #e0e0b1;
+}
+
 .bg-b{
- background-color: rgb(40, 76, 175);
+ background-color: rgb(4, 52, 110)
 }
 
 .bg-g{
   background-color: #058BA3;
+}
+
+.btn-p{
+ background-color: rgb(196, 5, 86);
+ color: #f4f4f4 !important;
+ font-size: 18px;
+
 }
 
