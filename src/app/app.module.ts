@@ -21,6 +21,12 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { WhyUsComponent } from './shared/components/why-us/why-us.component';
 
+import { HeadComponent } from './shared/aboutus/head/head.component';
+import { DescriptionComponent } from './shared/aboutus/description/description.component';
+import { SavoirFaireComponent } from './shared/aboutus/savoir-faire/savoir-faire.component';
+import { NewsletterComponent } from './shared/aboutus/newsletter/newsletter.component';
+import { NousComponent } from './pages/nous/nous.component';
+
 
 @NgModule({
   declarations: [
@@ -39,6 +45,12 @@ import { WhyUsComponent } from './shared/components/why-us/why-us.component';
     NotFoundComponent,
     IndustryComponent,
     WhyUsComponent,
+    
+    HeadComponent,
+    DescriptionComponent,
+    SavoirFaireComponent,
+    NewsletterComponent,
+    NousComponent,
 
 
   ],
