@@ -3,7 +3,7 @@
       <div *ngFor="let d of datas" class="col-12 col-md-6 col-lg-3">
         <img  class="img-fluid" *ngIf="d.image != undefined" src="assets/images/white-logo.png" alt="logo">
         <div *ngIf="d.items != undefined">
-          <p>{{d.title}}</p>
+          <h6>{{d.title}}</h6>
           <ul class="list-unstyled">
             <li *ngFor="let i of d.items">{{i.label}}</li>
           </ul>
@@ -12,6 +12,6 @@
 
       </div>
   </div>
-  <p></p>
+  <p class="text-center mt-5">&copy; Global-RH {{year}} powered by <a href="www.coupdepouce.sn">coup2pouce</a> </p>
 </div>
 

@@ -20,6 +20,7 @@ import { LoaderComponent } from './shared/components/loader/loader.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { WhyUsComponent } from './shared/components/why-us/why-us.component';
+import { DownloadCvComponent } from './pages/download-cv/download-cv.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { WhyUsComponent } from './shared/components/why-us/why-us.component';
     NotFoundComponent,
     IndustryComponent,
     WhyUsComponent,
+    DownloadCvComponent,
 
 
   ],

@@ -1,0 +1,22 @@
+.bg{
+  background-image: url('/assets/images/relaxe.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+
+label{
+
+  border: 1px dashed rgb(130, 130, 130);
+  background-color: rgba(186, 225, 255, 0.657);
+  padding: 1.2em 3em;
+  cursor: pointer;
+
+}
+i{
+  font-size: 72px;
+}
+
+#upload{
+  display: none;
+}

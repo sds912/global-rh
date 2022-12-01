@@ -2,15 +2,15 @@
   "nav": [
     {
       "label": "Offres d'emploies",
-      "link": ""
+      "link": "#offres"
     },
     {
       "label": "Qui Sommes-Nous",
-      "link": ""
+      "link": "#about"
     },
     {
       "label": "Déposer votre CV",
-      "link": ""
+      "link": "cv"
     }
 
   ]
